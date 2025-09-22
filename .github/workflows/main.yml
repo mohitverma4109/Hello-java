@@ -23,4 +23,14 @@ jobs:
       - name: Show present working directory
         run: pwd
 
+  create-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Create a file
+        run: touch file1
+
+
   
