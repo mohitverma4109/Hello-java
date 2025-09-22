@@ -1,6 +1,7 @@
 name: List Repo Files
 
-on:   # Runs on every push
+on:
+  push: # Runs on every push
   workflow_dispatch: # Allows manual trigger
 
 jobs:
